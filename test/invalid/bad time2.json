@@ -1,0 +1,8 @@
+{
+  "object_type": "schedule",
+  "listener": "mock",
+  "time": {
+    "hour": 20
+  },
+  "repeat": "daily"
+}

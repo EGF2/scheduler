@@ -1,0 +1,26 @@
+{
+  "name": "scheduler",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "commons": "git+https://github.com/EGF2/commons.git",
+    "bunyan": "^1.8.5",
+    "cron": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-xo": "^0.17.0",
+    "mocha": "^3.1.2",
+    "restify": "^4.1.1",
+    "node-uuid": "^1.4.7",
+    "underscore": "^1.8.3",
+    "elasticsearch": "^12.1.0"
+  },
+  "scripts": {
+    "start": "node index.js --config config.json",
+    "dev": "node index.js --config config.json | ./node_modules/.bin/bunyan",
+    "test": "mocha ./test/index.js --config config.json | ./node_modules/.bin/bunyan",
+    "lint": "eslint ."
+  },
+  "license": "MIT"
+}

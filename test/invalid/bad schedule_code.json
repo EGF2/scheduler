@@ -1,0 +1,14 @@
+{
+  "object_type": "schedule",
+  "listener": "mock",
+  "schedule_code": 123,
+  "time": {
+    "hour": 16,
+    "minute": 20,
+    "second": 0
+  },
+  "date": {
+    "day": 4
+  },
+  "repeat": "monthly"
+}

@@ -1,0 +1,13 @@
+{
+  "object_type": "schedule",
+  "listener": "mock",
+  "time": {
+    "hour": 16,
+    "minute": 20,
+    "second": 0
+  },
+  "date": {
+    "day_of_week": 4
+  },
+  "repeat": "weekly"
+}

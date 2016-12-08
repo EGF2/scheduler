@@ -1,0 +1,15 @@
+{
+  "object_type": "schedule",
+  "listener": "mock",
+  "schedule_code": "mock",
+  "time": {
+    "hour": 16,
+    "minute": 20,
+    "second": 0
+  },
+  "date": {
+    "year": 2015,
+    "month": 6,
+    "day": 2
+  }
+}
