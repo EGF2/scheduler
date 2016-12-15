@@ -14,5 +14,12 @@
     "db": "eigengraph",
     "table": "events",
     "offsettable": "event_offset"
+  },
+  "kafka": {
+    "hosts": [
+      "localhost:9092"
+    ],
+    "client-id": "scheduler",
+    "topic": "events"
   }
 }
