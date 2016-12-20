@@ -5,7 +5,7 @@ const components = require("./components");
 components.init().then(() => {
     require("./server")();
 })
-    .catch(err => {
-        console.log(err);
-        process.exit(1);
-    });
+.catch(err => {
+    console.error(err);
+    process.exit(1);
+});
